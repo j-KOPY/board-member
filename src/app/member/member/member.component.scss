@@ -1,0 +1,61 @@
+#arrow {
+  margin: auto 0 auto auto;
+}
+
+#name {
+  display: inline-block;
+  margin: auto 12px;
+  height: auto;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 23.8px;
+}
+
+#row1 {
+  display: flex;
+  padding: 12px 20px;
+}
+
+#row2 {
+  padding: 20px;
+  border-top: 1px solid #D2D7E1;
+}
+#row2 > div:not(:last-child) {
+  margin: 0 0 16px;
+}
+
+.member {
+  margin: 0 auto 18px;
+  width: 542px;
+  height: auto;
+  background-color: #FFFFFF;
+  border: 1px solid #D2D7E1;
+  border-radius: 8px;
+}
+
+.member-data, .member-description {
+  font-size: 15px;
+  line-height: 21px;
+}
+.member-data{
+  font-weight: 600;
+}
+.member-description{
+  font-weight: 400;
+}
+
+.icon {
+  display: inline-block;
+  // margin: 12px 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .member {
+    width: auto;
+    margin: 0 25px 18px;
+  }
+}
